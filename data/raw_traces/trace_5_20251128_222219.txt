@@ -1,0 +1,10 @@
+Command: whoami
+Execution Time: 0.1062 seconds
+Return Code: 0
+
+Stdout:
+desktop-qfrspan\lenovo
+
+
+Stderr:
+
