@@ -698,7 +698,7 @@ SOFTWARE.
 
 ## 👨‍💻 Author
 
-**Shiven Chauhan**
+**Shiven Pratap Singh**
 
 - 🎓 **Course**: CSE316 - Operating Systems
 - 🏫 **University**: Lovely Professional University
