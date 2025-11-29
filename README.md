@@ -361,20 +361,187 @@ Top system calls optimized:
 ## 📸 Screenshots
 
 ### 1. Dashboard Overview
-![Overview](screenshots/overview.png)
-*Main dashboard showing key metrics and system call distribution*
+
+<details>
+<summary>Click to expand Overview Screenshots</summary>
+
+#### Overview 1
+![Overview 1](screenshots/overview/overview1.png.png)
+
+#### Overview 2
+![Overview 2](screenshots/overview/overview2.png.png)
+
+#### Overview 3
+![Overview 3](screenshots/overview/overview3.png.png)
+
+</details>
+
+*Main dashboard showing key performance indicators, system call distribution by category, and activity timeline*
+
+**Key Features Visible:**
+- 📊 Total system calls and cache hit rate metrics
+- 🔝 Top 15 most frequent system calls bar chart
+- 📁 Category distribution pie chart (File, Process, Memory, Network)
+- 📉 Real-time activity timeline
+- 🔥 System call intensity heatmap
+
+---
 
 ### 2. AI Predictions
-![Predictions](screenshots/predictions.png)
-*Interactive prediction interface with confidence scores*
+
+<details>
+<summary>Click to expand AI Prediction Screenshots</summary>
+
+#### Prediction 1
+![Prediction 1](screenshots/prediction/predictions1.png.png)
+
+#### Prediction 2
+![Prediction 2](screenshots/prediction/predictions2.png.png)
+
+#### Prediction 3
+![Prediction 3](screenshots/prediction/predictions3.png.png)
+
+</details>
+
+*Interactive AI-powered prediction interface with ML model status and confidence scoring*
+
+**Key Features Visible:**
+- 🤖 ML model status (Active & Ready)
+- 🔮 Interactive 10-syscall sequence selector
+- 🎯 Next syscall prediction with confidence gauge
+- 📊 Top-5 most likely predictions with probability bars
+- 🚀 Batch prediction performance demo
+- 📈 Model information and accuracy metrics
+
+---
 
 ### 3. Performance Analytics
-![Performance](screenshots/performance.png)
-*Latency analysis and before/after comparison*
+
+<details>
+<summary>Click to expand Performance Screenshots</summary>
+
+#### Performance 1
+![Performance 1](screenshots/performance/performance1.png.png)
+
+#### Performance 2
+![Performance 2](screenshots/performance/performance2.png.png)
+
+#### Performance 3
+![Performance 3](screenshots/performance/performance3.png.png)
+
+</details>
+
+*Comprehensive performance analysis with before/after optimization comparison*
+
+**Key Features Visible:**
+- ⏱️ Latency distribution histogram with mean/median statistics
+- 📊 Before vs After AI comparison charts
+- 🎯 Syscall-specific latency breakdown
+- 📈 Performance improvements table (-35% latency, +45% throughput)
+- ⏰ Time-series performance visualization
+- 📉 Rolling average latency over time
+
+---
 
 ### 4. Optimization Details
-![Optimization](screenshots/optimization.png)
-*Cache performance and batching effectiveness*
+
+<details>
+<summary>Click to expand Optimization Screenshots</summary>
+
+#### Optimization 1
+![Optimization 1](screenshots/optimization/optimization1.png.png)
+
+#### Optimization 2
+![Optimization 2](screenshots/optimization/optimization2.png.png)
+
+#### Optimization 3
+![Optimization 3](screenshots/optimization/optimization3.png.png)
+
+</details>
+
+*Detailed view of optimization strategies and their effectiveness*
+
+**Key Features Visible:**
+- 🗄️ Cache performance metrics with 68% hit rate
+- 📈 Cache hit rate gauge (0-100% scale)
+- 📦 Call batching effectiveness comparison
+- 🎯 Active optimization strategies (Predictive Prefetching, LRU Caching, Call Batching, Smart Scheduling)
+- 💻 System resource impact (CPU, Memory, Context Switches)
+- 📊 Individual syscall batching reduction percentages
+
+---
+
+### Dashboard Features Summary
+
+| Tab | Key Visualizations | Purpose |
+|-----|-------------------|---------|
+| **Overview** | Bar charts, Pie charts, Timeline, Heatmap | System call distribution and activity patterns |
+| **AI Predictions** | Confidence gauge, Probability bars, Sequence predictor | ML-powered syscall prediction interface |
+| **Performance** | Histograms, Comparison charts, Time-series | Latency analysis and optimization impact |
+| **Optimization** | Gauge charts, Grouped bars, Strategy cards | Cache and batching effectiveness metrics |
+
+---
+
+## 📋 Dashboard Navigation Guide
+
+### Tab 1: Overview 📊
+- **Metrics Row**: Total syscalls, cache hit rate, average latency, categories, optimization %
+- **Chart 1**: Top 15 most frequent system calls (horizontal bar chart)
+- **Chart 2**: Category distribution (pie chart with percentages)
+- **Chart 3**: System calls per second timeline
+- **Chart 4**: Call intensity heatmap across time windows
+
+### Tab 2: AI Predictions 🤖
+- **Status Box**: ML model status (Active/Inactive)
+- **Sequence Builder**: 10 dropdown selectors for building syscall sequence
+- **Actions**:
+  - 🎯 Predict Next Call - Single prediction with confidence
+  - 📊 Top-5 Predictions - Most likely next syscalls
+  - 🔮 Predict Sequence - Next 5 calls iteratively
+- **Model Info**: Type, accuracy, training samples
+- **Batch Demo**: Performance test on multiple sequences
+
+### Tab 3: Performance 📈
+- **Left Column**: 
+  - Latency distribution histogram
+  - Statistics (mean, median, std dev, percentiles)
+- **Right Column**:
+  - Before/After comparison bars
+  - Improvement percentages by metric
+- **Bottom**: 
+  - Syscall-specific latency analysis
+  - Time-series rolling average
+
+### Tab 4: Optimization ⚙️
+- **Left Column**:
+  - Cache hit rate metrics
+  - Confidence gauge (0-100%)
+  - Cache explanation expandable
+- **Right Column**:
+  - Batching comparison (Individual vs Batched)
+  - Reduction percentages per syscall
+- **Bottom**:
+  - 4 optimization strategy cards
+  - System resource impact metrics
+
+### Tab 5: Raw Data 📋
+- **Search**: Filter syscalls by name
+- **Column Selector**: Choose which columns to display
+- **Data Table**: Interactive table with 500 rows
+- **Download**: Export filtered data as CSV
+- **Summary Stats**: Statistical overview expandable
+
+---
+
+### Screenshot Details
+
+**Resolution**: 1920x1080 (Full HD)  
+**Format**: PNG  
+**Captured**: November 2024  
+**Dashboard Version**: v1.0  
+**Browser**: Chrome/Edge  
+
+All screenshots demonstrate the dashboard running with live data from trained ML model.
 
 ---
 
